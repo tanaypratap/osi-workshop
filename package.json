@@ -1,0 +1,28 @@
+{
+  "name": "osi-workshop",
+  "version": "1.0.0",
+  "description": "For Open Source India Workshop",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaypratap/osi-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanaypratap/osi-workshop/issues"
+  },
+  "homepage": "https://github.com/tanaypratap/osi-workshop#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
